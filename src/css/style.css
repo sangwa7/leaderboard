@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:weight@400;700&display=swap");
+
+:root {
+  --primary-color: #3e6f9e;
+  --font: "Karla", sans-serif;
+  --trans: all 0.2s ease-in-out;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--primary-color);
+  background-color: bisque;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  margin: 0;
+}
+
+.container .display-section {
+  width: 50%;
+}
+
+.container .display-section .title {
+  display: flex;
+  flex-direction: row;
+}
+
+.container .display-section .title button {
+  background-color: rgb(5, 134, 167);
+  width: 80px;
+  height: 40px;
+  border: none;
+  margin-top: 10px;
+  color: white;
+}
+
+.container .display-section .title h3 {
+  margin-right: 30%;
+  margin-left: 4%;
+}
+
+.container .add-section {
+  width: 50%;
+  margin-left: 3%;
+}
+
+.container .add-section input {
+  width: 80%;
+  margin-top: 20px;
+  height: 40px;
+}
+
+.container .add-section input[type='submit'] {
+  background-color: rgb(5, 134, 167);
+  width: 80%;
+  height: 40px;
+  border: none;
+  color: white;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 2%;
+}
+
+li:nth-child(odd) {
+  background-color: rgb(221, 221, 221);
+}
