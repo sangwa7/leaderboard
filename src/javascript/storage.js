@@ -1,4 +1,4 @@
-export const names = [
+export const tasks = [
     {name: 23},
     {name: 123},
     {name: 20},
