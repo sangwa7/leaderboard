@@ -47,6 +47,21 @@ h1 {
   margin-left: 4%;
 }
 
+.container .display-section .header {
+  display: flex;
+  flex-direction: row;
+}
+
+.container .display-section .header button {
+  margin-left: 30%;
+  background-color: rgb(5, 134, 167);
+  width: 30%;
+  height: 40px;
+  border: none;
+  color: white;
+  margin-top: 20px;
+}
+
 .container .add-section {
   width: 50%;
   margin-left: 3%;
